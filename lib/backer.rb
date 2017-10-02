@@ -8,7 +8,7 @@ def initialize(name)
 end
 
 def back_project (project)
-  project = Project.new(title)
+  project = Project.new(name)
   @backed_projects << project
 end
 
