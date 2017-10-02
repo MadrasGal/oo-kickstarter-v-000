@@ -8,7 +8,7 @@ def initialize(name)
 end
 
 def back_project (project)
-  @backed_projects = {projects: []}
+  @back_projects = {projects: []}
 end
 
 end
